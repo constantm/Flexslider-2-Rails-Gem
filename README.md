@@ -1,4 +1,34 @@
-Flexslider-2-Rails-Gem
-======================
+# Flexslider 2 Rails Gem
 
-Rails wrapper for the Flexslider 2 jQuery carousel by WooThemes
+Flexslider 2 by Woo Themes - https://github.com/woothemes/FlexSlider
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'flexslider'
+
+And then execute:
+
+    $ bundle install
+
+## Usage
+
+Flexslider 2 is dependant on jQuery, so make sure you have it in your Gemfile.
+
+    //= require jquery
+
+Add to your app/assets/javascripts/application.js
+
+    //= require flexslider 
+
+And to your app/assets/stylesheets/application.css
+
+    *= require flexslider.css
+
+## Documentation
+
+Usage documentation as well as demos can be found at:
+
+https://github.com/woothemes/FlexSlider
+http://www.woothemes.com/flexslider/
