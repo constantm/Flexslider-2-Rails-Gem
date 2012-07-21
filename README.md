@@ -6,7 +6,11 @@ Flexslider 2 by Woo Themes - https://github.com/woothemes/FlexSlider
 
 Add this line to your application's Gemfile:
 
-    gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
+    gem 'flexslider'
+
+Alternatively, you can get it from Github
+
+	gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
 
 And then execute:
 
