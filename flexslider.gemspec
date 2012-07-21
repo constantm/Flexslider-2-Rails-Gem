@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Rails wrapper for the Flexslider 2 jQuery carousel by WooThemes}
   gem.homepage      = "http://aisleb.co.za"
 
-  gem.files         = `git ls-files`.split($\)
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "flexslider"
