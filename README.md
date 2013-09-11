@@ -24,7 +24,11 @@ Flexslider 2 is dependant on jQuery, so make sure you have it in your Gemfile.
 
 Add to your app/assets/javascripts/application.js
 
-    //= require flexslider 
+    //= require jquery.flexslider
+
+Or for the minified version
+
+    //= require jquery.flexslider-min
 
 And to your app/assets/stylesheets/application.css
 
