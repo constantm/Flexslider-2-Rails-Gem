@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "flexslider"
   gem.require_paths = ["lib"]
   gem.version       = Flexslider::VERSION
+
+  gem.add_dependency "sass-rails", ">= 3.1.0"
 end
