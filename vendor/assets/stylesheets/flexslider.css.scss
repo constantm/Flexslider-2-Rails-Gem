@@ -1,3 +1,7 @@
+//= depend_on_asset "flexslider-icon.eot"
+//= depend_on_asset "flexslider-icon.woff"
+//= depend_on_asset "flexslider-icon.ttf"
+//= depend_on_asset "flexslider-icon.svg"
 /*
  * jQuery FlexSlider v2.2.0
  * http://www.woothemes.com/flexslider/
@@ -25,11 +29,11 @@
 /* Font-face Icons */
 @font-face {
 	font-family: 'flexslider-icon';
-	src:font-url('fonts/flexslider-icon.eot');
-	src:font-url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
-		font-url('fonts/flexslider-icon.woff') format('woff'),
-		font-url('fonts/flexslider-icon.ttf') format('truetype'),
-		font-url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+	src:font-url('flexslider-icon.eot');
+	src:font-url('flexslider-icon.eot?#iefix') format('embedded-opentype'),
+		font-url('flexslider-icon.woff') format('woff'),
+		font-url('flexslider-icon.ttf') format('truetype'),
+		font-url('flexslider-icon.svg#flexslider-icon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
