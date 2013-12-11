@@ -3,8 +3,14 @@ require "flexslider/version"
 module Flexslider
   module Rails
     class Engine < ::Rails::Engine
-      initializer :append_dependent_assets_path do |app|
-        app.config.assets.paths.push 'fonts'
+      initializer :append_dependent_assets_path, :group => :all do |app|
+        app.config.assets.precompile += %w( flexslider.css )
+        app.config.assets.precompile += %w( jquery.flexslider.js )
+
+        app.config.assets.precompile += %w( fonts/flexslider-icon.eot )
+        app.config.assets.precompile += %w( fonts/flexslider-icon.svg )
+        app.config.assets.precompile += %w( fonts/flexslider-icon.ttf )
+        app.config.assets.precompile += %w( fonts/flexslider-icon.woff )
       end
     end
   end
