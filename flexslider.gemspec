@@ -2,8 +2,8 @@
 require File.expand_path('../lib/flexslider/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Constant Meiring"]
-  gem.email         = ["constant@aisleb.co.za"]
+  gem.authors       = ["Constant Meiring", "Patrik Wehrli"]
+  gem.email         = ["constant@aisleb.co.za", "patrik.wehrli@gmail.com"]
   gem.description   = %q{Flexslider 2 Rails Gem}
   gem.summary       = %q{Rails wrapper for the Flexslider 2 jQuery carousel by WooThemes}
   gem.homepage      = "http://aisleb.co.za"
