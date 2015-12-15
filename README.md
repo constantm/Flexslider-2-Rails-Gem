@@ -18,7 +18,7 @@ And then execute:
 
 ## Usage
 
-Flexslider 2 is dependant on jQuery, so make sure you have it in your Gemfile.
+Flexslider 2 is dependant on jQuery (1.7+), so make sure you have it in your Gemfile.
 
     //= require jquery
 

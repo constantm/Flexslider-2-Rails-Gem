@@ -1,4 +1,4 @@
-require "flexslider/version"
+require 'flexslider/version'
 
 module Flexslider
   module Rails
